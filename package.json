@@ -1,12 +1,15 @@
 {
-    "name": "offlinecal",
-    "displayName": "Offline Cal",
-    "version": "1.0.0",
-    "description": "A calendar that works with no internet connection. Designed for best security.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Justin King",
-    "license": "MIT"
+  "name": "offlinecal",
+  "displayName": "Offline Cal",
+  "version": "1.0.0",
+  "description": "A calendar that works with no internet connection. Designed for best security.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin King",
+  "license": "MIT",
+  "dependencies": {
+    "cordova-android": "^7.0.0"
+  }
 }
